@@ -1,5 +1,7 @@
 # Villa Website
 
+![Website Preview](preview.png)
+
 A responsive real estate website built using HTML and CSS.
 
 ## Features
