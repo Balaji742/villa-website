@@ -1,0 +1,163 @@
+/* HERO SECTION */
+
+.proper {
+    background: url("/images/page-heading-bg.jpg") center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.proper p {
+    background: white;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.proper h1 {
+    color: white;
+    font-size: 42px;
+}
+
+
+
+/* FILTER BUTTONS */
+
+.propert {
+    text-align: center;
+    margin: 70px 0 30px;
+}
+
+.propert button {
+    padding: 12px 25px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.propert button:hover {
+    background: orangered;
+}
+
+/* PAGINATION */
+
+.number {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 80px 0;
+    
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: orangered;
+}
+
+.btn:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons i {
+    font-size: 32px;
+    color: white;
+}
+
+.social-icons i:hover {
+    color: orangered;
+}
+
+/* --------------------------------------------------------------------------- */
+
+@media (max-width:768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    /* hero */
+
+    .proper {
+        height: 250px;
+        margin-top: 100px;
+    }
+
+    .proper h1{
+        font-size: 28px;
+    }
+
+    /* grid becomes 2 columns */
+
+    .property-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    /* footer stack */
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
