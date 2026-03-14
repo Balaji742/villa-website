@@ -1,7 +1,7 @@
 /* HERO SECTION */
 
 .proper {
-    background: url("../images/page-heading-bg.jpg") center/cover no-repeat;
+    background: url("../images/page-heading-bg.jpg")  center center/cover no-repeat;
     height: 350px;
     display: flex;
     flex-direction: column;
